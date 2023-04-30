@@ -26,7 +26,7 @@ var btn2 = document.querySelector("button2");
 btn2.addEventListener("click",function(){
 	counter = counter - 1;
 	if(counter < 0){
-		counter = length - 1;
+		counter = length - 1;		
 	}
 	img.src = pics[counter];
 });

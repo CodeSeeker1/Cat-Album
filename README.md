@@ -1,2 +1,4 @@
 # Cat-Album
-Languages used: CSS , JS and HTML
+Languages used: CSS , JavaScript and HTML5
+
+

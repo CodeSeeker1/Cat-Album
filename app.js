@@ -11,22 +11,35 @@ var pics = [
 ];
 let length = pics.length;
 // to enable the button to switch among pics going forward
-var btn = document.querySelector("button");
+// var btn = document.querySelector("button");
 var img = document.querySelector("img");
 var counter = 0;
-btn.addEventListener("click",function(){
+
+function Button1(){
 	counter = counter + 1;
 	if(counter === 8) {
 		counter = 0; 
 	}
 	img.src = pics[counter];
-});
+}
+
 // to enable the botton to switch among pics going backwards
-var btn2 = document.querySelector("button2");
-btn2.addEventListener("click",function(){
+function Button2(){
 	counter = counter - 1;
 	if(counter < 0){
 		counter = length - 1;		
 	}
 	img.src = pics[counter];
-});
+}
+
+// var btn2 = document.querySelector("button");
+
+
+// var btn2 = document.querySelector("button");
+// 	btn2.addEventListener("click",function(){
+// 	counter = counter - 1;
+// 	if(counter < 0){
+// 		counter = length - 1;		
+// 	}
+// 	img.src = pics[counter];
+// })

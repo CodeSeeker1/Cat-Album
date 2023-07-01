@@ -31,15 +31,3 @@ function Button2(){
 	}
 	img.src = pics[counter];
 }
-
-// var btn2 = document.querySelector("button");
-
-
-// var btn2 = document.querySelector("button");
-// 	btn2.addEventListener("click",function(){
-// 	counter = counter - 1;
-// 	if(counter < 0){
-// 		counter = length - 1;		
-// 	}
-// 	img.src = pics[counter];
-// })
